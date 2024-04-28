@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>73E9391D4696DDF9A4E601B98A4BAFED</ExecutionGuid>
+		<CrashGUID>UECC-Windows-5A1BBA8B415467B608D2C88C91E16F92_0000</CrashGUID>
+		<IsEnsure>true</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<ErrorMessage>Ensure condition failed: LocalState.GetWriterThreadId() == CurrentThreadId [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Misc\MTAccessDetector.h] [Line: 589] Data race detected: acquiring write access on thread 10768 concurrently with 1 writers on thread 20944: Current thread 10768 callstack: 0x00007ffc2edc9f11 UnknownFunction [] 0x00007ffc2ede5b9c UnknownFunction [] 0x00007ffc2edbb120 UnknownFunction [] 0x00007ffc2edb2a74 UnknownFunction [] 0x00007ffc2edd51e8 UnknownFunction [] 0x00007ffc2edc8b0c UnknownFunction [] 0x00007ffc6807227d UnknownFunction [] 0x00007ffc6807afd3 UnknownFunction [] 0x00007ffc68088cd5 UnknownFunction [] 0x00007ffc68088a7c UnknownFunction [] 0x00007ffc680680e2 UnknownFunction [] 0x00007ffc680b08c2 UnknownFunction [] 0x00007ffc68078b60 UnknownFunction [] 0x00007ffc6825f773 UnknownFunction [] 0x00007ffc68694e32 UnknownFunction [] 0x00007ffc68688667 UnknownFunction [] 0x00007ffcdf497344 UnknownFunction [] 0x00007ffce07c26b1 UnknownFunction [] Writer thread 20944 callstack: 0x00007ffc688a69f1 UnknownFunction [] 0x00007ffc68252fc7 UnknownFunction [] 0x00007ffc68253493 UnknownFunction [] 0x00007ffc681269a8 UnknownFunction [] 0x00007ffc672e4628 UnknownFunction [] 0x00007ffc67779e8d UnknownFunction [] 0x00007ffc6777af1a UnknownFunction [] 0x00007ffc677b79a8 UnknownFunction [] 0x00007ffc67713c96 UnknownFunction [] 0x00007ffc67721d7d UnknownFunction [] 0x00007ffc6740eb9e UnknownFunction [] 0x00007ffc6775e427 UnknownFunction [] 0x00007ffc6775f3af UnknownFunction [] 0x00007ffc6773b2da UnknownFunction [] 0x00007ffc675eabc5 UnknownFunction [] 0x00007ffc68479163 UnknownFunction [] 0x00007ffc684a584b UnknownFunction [] 0x00007ffcb4e387ee UnknownFunction [] 0x00007ffcb4e556c3 UnknownFunction [] 0x00007ffcb4e3801a UnknownFunction [] 0x00007ff65c7f2463 UnknownFunction [] 0x00007ff65c7f634f UnknownFunction [] 0x00007ff65c7ecfb6 UnknownFunction [] 0x00007ff65c7ed37a UnknownFunction [] 0x00007ff65c7f0854 UnknownFunction [] 0x00007ff65c806984 UnknownF</ErrorMessage>
+		<CrashReporterMessage />
+		<AttendedStatus>Attended</AttendedStatus>
+		<ProcessId>14620</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsWithDebugInfo>true</IsWithDebugInfo>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-shotinthedark</GameName>
+		<ExecutableName>UnrealEditor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>WindowsEditor</PlatformName>
+		<PlatformFullName>Win64 [Windows 10 (22H2) [10.0.19045.4170]  64b]</PlatformFullName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.3.2-29314046+++UE5+Release-5.3</EngineVersion>
+		<EngineCompatibleVersion>5.3.2-29314046+++UE5+Release-5.3</EngineCompatibleVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>zh-CN</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.3-CL-29314046</BuildVersion>
+		<Symbols>**UE5*Release-5.3-CL-29314046-Win64-Development</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>E:/Software/UE/UE_5.3/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>E:/Software/UE/UE_5.3/</RootDir>
+		<MachineId>9278169E44BE04A5DA391A89053EA9C0</MachineId>
+		<LoginId>9278169e44be04a5da391a89053ea9c0</LoginId>
+		<EpicAccountId>4179ba0f3b4944d38a25b96977694eec</EpicAccountId>
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>14</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>20</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>13th Gen Intel(R) Core(TM) i5-13600KF</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 4070 Ti SUPER</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.4170]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>34164097024</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>36311580672</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>23858917376</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>22428069888</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1459490816</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1459531776</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1682935808</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1682939904</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>3</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>UnrealEditor-LiveCoding 0x00007ffc2edb0000 + b120 UnrealEditor-Core 0x00007ffc68010000 + 228821 Unknown 0x0000000000000000 + bdb30</PCallStack>
+		<PCallStackHash>2E4421B3798EDFCD07FE74D22C63C6E10D9876F5</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>KERNELBASE 0x00007ffcddf80000 + 2cf19 Unknown 0x0000000000000000 + 10002 XINPUT1_3 0x0000000000400000 + cb699f4d90 UnrealEditor-LiveCoding 0x00007ffc2edb0000 + b120 UnrealEditor-Core 0x00007ffc68010000 + 228821 Unknown 0x0000000000000000 + bdb30</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>10768</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638499047465330000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<CPUBrand>13th Gen Intel(R) Core(TM) i5-13600KF</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsEditorNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+		<RHI.DRED>false</RHI.DRED>
+		<RHI.DREDMarkersOnly>true</RHI.DREDMarkersOnly>
+		<RHI.DREDContext>false</RHI.DREDContext>
+		<RHI.Aftermath>true</RHI.Aftermath>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 4070 Ti SUPER</RHI.AdapterName>
+		<RHI.UserDriverVersion>552.22</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>31.0.15.5222</RHI.InternalDriverVersion>
+		<RHI.DriverDate>4-11-2024</RHI.DriverDate>
+		<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+		<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+		<RHI.DeviceId>2705</RHI.DeviceId>
+		<DeviceProfile.Name>WindowsEditor</DeviceProfile.Name>
+	</EngineData>
+	<GameData />
+</FGenericCrashContext>
